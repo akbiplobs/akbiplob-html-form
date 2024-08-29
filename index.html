@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A K Biplob</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="heading">
+      <h1>Complex Form Design</h1>
+    </header>
+    <section class="form_section">
+      <form>
+        <div class="inline_form">
+          <div class="form_group">
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="A K" id="fname" />
+          </div>
+          <div class="form_group">
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Biplob" id="lname" />
+          </div>
+        </div>
+        <div class="inline_form">
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="enter your email" id="email" />
+          </div>
+          <div class="form_group">
+            <label for="phone">Phone No</label>
+            <input type="tel" placeholder="phone no" id="phone" />
+          </div>
+        </div>
+        <div class="inline_form">
+          <div class="form_group">
+            <label for="country">Country</label>
+            <select id="country">
+              <option value="Bangladesh" selected>Bangladesh</option>
+              <option value="Pakisthan">Pakisthan</option>
+              <option value="Saudi Arab">Saudi Arab</option>
+              <option value="America">America</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="city">City</label>
+            <select id="city">
+              <option value="Dhaka" selected>Dhaka</option>
+              <option value="Korachi">Korachi</option>
+              <option value="Riyadh">Riyadh</option>
+              <option value="Washington">Washington</option>
+            </select>
+          </div>
+          </div>
+          <div class="form_group">
+            <label>Gender</label>
+            <div class="radio_inline_group">
+              <div class="radio_inline">
+                <input type="radio" value="Male" id="male" name="gender" />
+                <label for="male">Male</label>
+              </div>
+
+              <div class="radio_inline">
+                <input type="radio" value="Female" id="female" name="gender" />
+                <label for="female">Female</label>
+              </div>
+
+
+              <div class="radio_inline">
+                <input type="radio" value="Other" id="other" name="gender" />
+                <label for="other">Other</label>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="form_group bio">
+            <label for="bio">Short Bio</label>
+            <textarea id="bio"></textarea>
+          </div>
+
+          <div class="inline_form">
+            <div class="form_group">
+              <label for="password">Password</label>
+              <input type="password" placeholder="Password" id="password" />
+            </div>
+            <div class="form_group">
+              <label for="password2">Confirm Password</label>
+              <input type="password" placeholder="Password" id="password2" />
+            </div>
+          </div>
+
+          <div class="form_group">
+            <div class="radio_inline">
+              <input type="checkbox" id="aggrement">
+              <label for="aggrement">I accept terms & conditions</label>
+            </div>
+          </div>
+          <div class="form_group">
+            <button class="btn btn_reset" type="reset">Reset</button>
+            <button class="btn btn_submit" type="submit">Submit</button>
+          </div>
+
+      </form>
+    </section>
+
+
+  </div>
+</body>
+
+</html>
